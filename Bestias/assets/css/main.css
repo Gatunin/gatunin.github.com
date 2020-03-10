@@ -1,3 +1,41 @@
-td {
-    border: solid 1px ;
+td,th {
+    text-align: center;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: esdla;
+    src: url(../fonts/esdla.TTF);
+}
+
+table {
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.content{    
+    background-color: transparent;
+    margin: auto;
+    height: auto;
+}
+.container{
+    background-color: #2e2c2c;
+    background-size: auto;
+}
+.letra {
+    font-family: esdla;
+    color: palegoldenrod;
+    font-size: 15px;    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.enlaceArma{
+    color: maroon;
 }
